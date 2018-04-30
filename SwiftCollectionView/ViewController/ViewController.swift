@@ -9,17 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var color: Color = Color(name: "white", hex: "FFFFFF", r: 255, g: 255, b: 255)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
-
